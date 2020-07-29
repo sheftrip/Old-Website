@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+    display: grid;
+}
+
+header{
+    font-size: 1.5rem;
+    font-family: 'Sacramento', cursive;
+    border-style: hidden;
+    background-color: #eb6e80;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    display: block;
+}
+.about{
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem; 
+    margin-right: 3rem;
+    margin-left: 20rem;
+}
+.projects{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(5, 184, 184);
+    font-size: 1.75rem;
+    text-align: center;
+    /* margin-top: 3rem; */
+}
+
+.img-button{
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    margin-top: 2rem;
+}
+
+.download-button{
+    /* position: relative; */
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    color: whitesmoke;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 7.5rem;
+    font-size: 1.5rem;
+    background-color: rgb(5, 184, 184);
+    transition: all 0.3s ease;
+}
+
+.download-button:hover{
+   box-shadow: 5px 5px darkgray;
+}
+
+img{
+    border-radius: 50%;
+    width: 23rem;
+}
+
+.git-btn{
+    outline: none;
+    border: 4px solid;
+    border-color: #e9b000;
+    border-radius: 50%;
+    color: #e9b000;
+    background: whitesmoke;
+    font-size: 2.5rem;
+    padding: 0.55rem;
+    margin-left: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.linkedin-btn{
+    outline: none;
+    border: 4px solid;
+    border-color: #e9b000;
+    color: #e9b000;
+    background: whitesmoke;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    padding:0.55rem;
+    margin-right: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.git-btn:hover{
+    color:whitesmoke;
+    background-color:#e9b000;
+}
+
+.linkedin-btn:hover{
+    color:whitesmoke;
+    background-color:#e9b000;
+}
+
+.fa-github,
+.fa-linkedin-in{
+    pointer-events: none;
+}
+
+.fa-calendar-alt{
+    font-size: 1.25rem;
+    color: black;
+}
+
+.fa-link{
+    font-size: 1.25rem;
+    margin-top: 0.2rem;
+    color: black;
+}
+
+h4{
+    color:black;
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+    text-decoration: underline;
+}
+
+.project-item{
+    outline: none;
+    color: rgb(119, 117, 117);
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    width: 25rem;
+    height:35rem;
+    margin: 3rem;
+    padding: 2rem;
+    text-align: left;
+}
